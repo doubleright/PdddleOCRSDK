@@ -1,0 +1,572 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "BarcodeSDK.exe"
+		},
+		{
+			"path" : "BarcodeSDK.pdb"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_executable",
+			"link_directories",
+			"target_link_libraries",
+			"add_definitions",
+			"ADD_DEFINITIONS",
+			"include_directories"
+		],
+		"files" : 
+		[
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 211,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 42,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 43,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 107,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 109,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 110,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 111,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 112,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 213,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 64,
+				"parent" : 0
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 27,
+				"parent" : 0
+			},
+			{
+				"command" : 5,
+				"file" : 0,
+				"line" : 40,
+				"parent" : 0
+			},
+			{
+				"command" : 5,
+				"file" : 0,
+				"line" : 41,
+				"parent" : 0
+			},
+			{
+				"command" : 5,
+				"file" : 0,
+				"line" : 90,
+				"parent" : 0
+			},
+			{
+				"command" : 5,
+				"file" : 0,
+				"line" : 91,
+				"parent" : 0
+			},
+			{
+				"command" : 5,
+				"file" : 0,
+				"line" : 92,
+				"parent" : 0
+			},
+			{
+				"command" : 5,
+				"file" : 0,
+				"line" : 93,
+				"parent" : 0
+			},
+			{
+				"command" : 5,
+				"file" : 0,
+				"line" : 94,
+				"parent" : 0
+			},
+			{
+				"command" : 5,
+				"file" : 0,
+				"line" : 95,
+				"parent" : 0
+			},
+			{
+				"command" : 5,
+				"file" : 0,
+				"line" : 96,
+				"parent" : 0
+			},
+			{
+				"command" : 5,
+				"file" : 0,
+				"line" : 98,
+				"parent" : 0
+			},
+			{
+				"command" : 5,
+				"file" : 0,
+				"line" : 117,
+				"parent" : 0
+			},
+			{
+				"command" : 5,
+				"file" : 0,
+				"line" : 128,
+				"parent" : 0
+			},
+			{
+				"command" : 5,
+				"file" : 0,
+				"line" : 51,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "/DWIN32 /D_WINDOWS /W3 /GR /EHsc /MT /O2 /Ob2 /DNDEBUG /bigobj /MT /openmp   /DGOOGLE_GLOG_DLL_DECL="
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 10,
+					"define" : "STATIC_LIB"
+				},
+				{
+					"backtrace" : 11,
+					"define" : "USE_MKL"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 12,
+					"path" : "D:/PaddleOCR/paddle_inference_2.1/paddle/fluid/inference"
+				},
+				{
+					"backtrace" : 13,
+					"path" : "D:/PaddleOCR/paddle_inference_2.1/paddle/include"
+				},
+				{
+					"backtrace" : 14,
+					"path" : "D:/PaddleOCR/paddle_inference_2.1/third_party/install/protobuf/include"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "D:/PaddleOCR/paddle_inference_2.1/third_party/install/glog/include"
+				},
+				{
+					"backtrace" : 16,
+					"path" : "D:/PaddleOCR/paddle_inference_2.1/third_party/install/gflags/include"
+				},
+				{
+					"backtrace" : 17,
+					"path" : "D:/PaddleOCR/paddle_inference_2.1/third_party/install/xxhash/include"
+				},
+				{
+					"backtrace" : 18,
+					"path" : "D:/PaddleOCR/paddle_inference_2.1/third_party/install/zlib/include"
+				},
+				{
+					"backtrace" : 19,
+					"path" : "D:/PaddleOCR/paddle_inference_2.1/third_party/boost"
+				},
+				{
+					"backtrace" : 20,
+					"path" : "D:/PaddleOCR/paddle_inference_2.1/third_party/eigen3"
+				},
+				{
+					"backtrace" : 21,
+					"path" : "D:/PaddleOCR/PdddleOCRSDK/CMakeSource"
+				},
+				{
+					"backtrace" : 22,
+					"path" : "D:/PaddleOCR/paddle_inference_2.1/third_party/install/mklml/include"
+				},
+				{
+					"backtrace" : 23,
+					"path" : "D:/PaddleOCR/paddle_inference_2.1/third_party/install/mkldnn/include"
+				},
+				{
+					"backtrace" : 24,
+					"isSystem" : true,
+					"path" : "D:/PaddleOCR/opencv/build/include"
+				},
+				{
+					"backtrace" : 24,
+					"isSystem" : true,
+					"path" : "D:/PaddleOCR/opencv/build/include/opencv"
+				}
+			],
+			"language" : "CXX",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9
+			]
+		}
+	],
+	"id" : "BarcodeSDK::@6890427a1f51a3e7e1df",
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "/DWIN32 /D_WINDOWS /W3 /GR /EHsc /MT /O2 /Ob2 /DNDEBUG /bigobj /MT /openmp",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "/machine:x64 /INCREMENTAL:NO /subsystem:console",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "-LIBPATH:D:\\PaddleOCR\\paddle_inference_2.1\\paddle\\lib",
+				"role" : "libraryPath"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "-LIBPATH:D:\\PaddleOCR\\paddle_inference_2.1\\paddle\\fluid\\inference",
+				"role" : "libraryPath"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "-LIBPATH:D:\\PaddleOCR\\paddle_inference_2.1\\third_party\\install\\zlib\\lib",
+				"role" : "libraryPath"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "-LIBPATH:D:\\PaddleOCR\\paddle_inference_2.1\\third_party\\install\\protobuf\\lib",
+				"role" : "libraryPath"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "-LIBPATH:D:\\PaddleOCR\\paddle_inference_2.1\\third_party\\install\\glog\\lib",
+				"role" : "libraryPath"
+			},
+			{
+				"backtrace" : 7,
+				"fragment" : "-LIBPATH:D:\\PaddleOCR\\paddle_inference_2.1\\third_party\\install\\gflags\\lib",
+				"role" : "libraryPath"
+			},
+			{
+				"backtrace" : 8,
+				"fragment" : "-LIBPATH:D:\\PaddleOCR\\paddle_inference_2.1\\third_party\\install\\xxhash\\lib",
+				"role" : "libraryPath"
+			},
+			{
+				"fragment" : "-LIBPATH:D:\\PaddleOCR\\paddle_inference_2.1\\third_party\\install\\mklml\\lib",
+				"role" : "libraryPath"
+			},
+			{
+				"fragment" : "-LIBPATH:D:\\PaddleOCR\\paddle_inference_2.1\\third_party\\install\\mkldnn\\lib",
+				"role" : "libraryPath"
+			},
+			{
+				"fragment" : "-LIBPATH:D:\\PaddleOCR\\opencv\\build\\x64\\vc15\\lib",
+				"role" : "libraryPath"
+			},
+			{
+				"backtrace" : 9,
+				"fragment" : "D:\\PaddleOCR\\paddle_inference_2.1\\paddle\\lib\\paddle_inference.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 9,
+				"fragment" : "D:\\PaddleOCR\\paddle_inference_2.1\\third_party\\install\\mklml\\lib\\mklml.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 9,
+				"fragment" : "D:\\PaddleOCR\\paddle_inference_2.1\\third_party\\install\\mklml\\lib\\libiomp5md.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 9,
+				"fragment" : "D:\\PaddleOCR\\paddle_inference_2.1\\third_party\\install\\mkldnn\\lib\\mkldnn.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 9,
+				"fragment" : "glog.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 9,
+				"fragment" : "gflags_static.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 9,
+				"fragment" : "libprotobuf.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 9,
+				"fragment" : "xxhash.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 9,
+				"fragment" : "libcmt.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 9,
+				"fragment" : "shlwapi.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 9,
+				"fragment" : "D:\\PaddleOCR\\opencv\\build\\x64\\vc15\\lib\\opencv_world346.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 9,
+				"fragment" : "D:\\PaddleOCR\\opencv\\build\\x64\\vc15\\lib\\opencv_world346.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 9,
+				"fragment" : "D:\\PaddleOCR\\opencv\\build\\x64\\vc15\\lib\\opencv_world346.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 9,
+				"fragment" : "D:\\PaddleOCR\\opencv\\build\\x64\\vc15\\lib\\opencv_world346.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 9,
+				"fragment" : "D:\\PaddleOCR\\opencv\\build\\x64\\vc15\\lib\\opencv_world346.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 9,
+				"fragment" : "D:\\PaddleOCR\\opencv\\build\\x64\\vc15\\lib\\opencv_world346.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 9,
+				"fragment" : "D:\\PaddleOCR\\opencv\\build\\x64\\vc15\\lib\\opencv_world346.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 9,
+				"fragment" : "D:\\PaddleOCR\\opencv\\build\\x64\\vc15\\lib\\opencv_world346.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 9,
+				"fragment" : "D:\\PaddleOCR\\opencv\\build\\x64\\vc15\\lib\\opencv_world346.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 9,
+				"fragment" : "D:\\PaddleOCR\\opencv\\build\\x64\\vc15\\lib\\opencv_world346.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 9,
+				"fragment" : "D:\\PaddleOCR\\opencv\\build\\x64\\vc15\\lib\\opencv_world346.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 9,
+				"fragment" : "D:\\PaddleOCR\\opencv\\build\\x64\\vc15\\lib\\opencv_world346.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 9,
+				"fragment" : "D:\\PaddleOCR\\opencv\\build\\x64\\vc15\\lib\\opencv_world346.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 9,
+				"fragment" : "D:\\PaddleOCR\\opencv\\build\\x64\\vc15\\lib\\opencv_world346.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 9,
+				"fragment" : "D:\\PaddleOCR\\opencv\\build\\x64\\vc15\\lib\\opencv_world346.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 9,
+				"fragment" : "D:\\PaddleOCR\\opencv\\build\\x64\\vc15\\lib\\opencv_world346.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 9,
+				"fragment" : "D:\\PaddleOCR\\opencv\\build\\x64\\vc15\\lib\\opencv_world346.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 9,
+				"fragment" : "D:\\PaddleOCR\\opencv\\build\\x64\\vc15\\lib\\opencv_world346.lib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CXX"
+	},
+	"name" : "BarcodeSDK",
+	"nameOnDisk" : "BarcodeSDK.exe",
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/clipper.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/config.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/main.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/ocr_cls.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/ocr_det.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/ocr_rec.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/ocr_sdk.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/postprocess_op.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/preprocess_op.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/utility.cpp",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "EXECUTABLE"
+}

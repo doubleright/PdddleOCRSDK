@@ -1,0 +1,32 @@
+﻿{
+  "configurations": [
+    {
+      "name": "x64-Release",
+      "generator": "Ninja",
+      "configurationType": "Release",
+      "inheritEnvironments": [ "msvc_x64_x64" ],
+      "buildRoot": "${projectDir}\\out\\build\\${name}",
+      "installRoot": "${projectDir}\\out\\install\\${name}",
+      "cmakeCommandArgs": "",
+      "buildCommandArgs": "",
+      "ctestCommandArgs": "",
+      "variables": [
+        {
+          "name": "OPENCV_DIR",
+          "value": "D:/PaddleOCR/opencv",
+          "type": "PATH"
+        },
+        {
+          "name": "OpenCV_DIR",
+          "value": "D:/PaddleOCR/opencv",
+          "type": "PATH"
+        },
+        {
+          "name": "PADDLE_LIB",
+          "value": "D:/PaddleOCR/paddle_inference_2.1",
+          "type": "PATH"
+        }
+      ]
+    }
+  ]
+}
