@@ -34,13 +34,8 @@
 
 
 
-
-![image-20210616142046172](C:\Users\TSQ\AppData\Roaming\Typora\typora-user-images\image-20210616142046172.png)
-
-
-
 飞浆预测SDK实现，c#也可以调用
 
-![image-20210616142239670](C:\Users\TSQ\AppData\Roaming\Typora\typora-user-images\image-20210616142239670.png)
+![image-20210616142046172](D:\doubleright\PdddleOCRSDK\imgs\image-20210616142046172.png)
 
-这速度还算满意？
+这速度还算满意？![image-20210616142239670](D:\doubleright\PdddleOCRSDK\imgs\image-20210616142239670.png)
